@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <header>
         <h2>
-          <a>Recipe App</a>
+          <a>COOK EAT </a>
         </h2>
         <nav>
           <li>
