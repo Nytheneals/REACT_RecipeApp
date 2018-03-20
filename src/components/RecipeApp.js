@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import RecipeList from "./RecipeList";
-import "./RecipeApp.css";
+import "../css/RecipeApp.css";
 
 class RecipeApp extends Component {
   render() {
