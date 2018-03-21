@@ -1,30 +1,18 @@
 import React, { Component } from "react";
-import "../css/Navbar.css";
+// import "../css/Navbar.css";
 
 class Navbar extends Component {
   render() {
     return (
-      <header>
-        <h2>
-          <a>
-            COOK <i className="fa fa-cutlery" aria-hidden="true" /> EAT{" "}
-          </a>
-        </h2>
-        <nav>
-          <li>
-            <a>New Recipe</a>
-          </li>
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a>Contact Us</a>
-          </li>
-        </nav>
-      </header>
+      <div className="nav ">
+        <div className="item2 logo">
+          COOK <i className="fa fa-cutlery" aria-hidden="true" /> EAT
+        </div>
+        <div className="item">New Recipe</div>
+        <div className="item ">Home</div>
+        <div className="item ">About</div>
+        <div className="item ">Contact Us</div>
+      </div>
     );
   }
 }
