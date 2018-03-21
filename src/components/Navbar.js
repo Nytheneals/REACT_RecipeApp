@@ -6,7 +6,9 @@ class Navbar extends Component {
     return (
       <header>
         <h2>
-          <a>COOK EAT </a>
+          <a>
+            COOK <i className="fa fa-cutlery" aria-hidden="true" /> EAT{" "}
+          </a>
         </h2>
         <nav>
           <li>
