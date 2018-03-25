@@ -6,9 +6,12 @@ class UpperCaser extends Component {
   };
 
   handleClick = e => {
-    this.setState((prevState, props) => ({
-      name: prevState.name.toUpperCase()
-    }));
+    setTimeout(() => {
+      this.setState((prevState, props) => ({
+        name: prevState.name.toUpperCase()
+      }));
+      console.log("Updated!!!");
+    }, 1000);
   };
 
   render() {

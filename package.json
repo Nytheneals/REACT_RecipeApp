@@ -6,7 +6,7 @@
     "@fortawesome/fontawesome": "^1.1.4",
     "prop-types": "^15.6.0",
     "react": "^16.3.0-alpha.1",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.3.0-alpha.1",
     "react-scripts": "1.1.0"
   },
   "scripts": {

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Document</title>
+</head>
+
+<body>
+ <code>
+  <span class="token keyword">class</span>
+  <span class="token class-name">ShowList</span>
+  <span class="token keyword">extends</span>
+  <span class="token class-name">React
+   <span class="token punctuation">.</span>Component</span>
+  <span class="token punctuation">{</span>
+  <span class="token function">render</span>
+  <span class="token punctuation">(</span>
+  <span class="token punctuation">)</span>
+  <span class="token punctuation">{</span>
+  <span class="token keyword">return</span>
+  <span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>div
+  <span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>h3
+  <span class="token operator">&gt;</span> Friends
+  <span class="token operator">&lt;</span>
+  <span class="token operator">/</span>h3
+  <span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>ul
+  <span class="token operator">&gt;</span>
+  <span class="token punctuation">{</span>
+  <span class="token keyword">this</span>
+  <span class="token punctuation">.</span>props
+  <span class="token punctuation">.</span>names
+  <span class="token punctuation">.</span>
+  <span class="token function">map</span>
+  <span class="token punctuation">(</span>
+  <span class="token punctuation">(</span>friend
+  <span class="token punctuation">)</span>
+  <span class="token operator">=&gt;</span>
+  <span class="token punctuation">{</span>
+  <span class="token keyword">return</span>
+  <span class="token operator">&lt;</span>li
+  <span class="token operator">&gt;</span>
+  <span class="token punctuation">{</span>friend
+  <span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span>
+  <span class="token operator">/</span>li
+  <span class="token operator">&gt;</span>
+  <span class="token punctuation">}</span>
+  <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span>
+  <span class="token operator">/</span>ul
+  <span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>
+  <span class="token operator">/</span>div
+  <span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  ShowList
+  <span class="token punctuation">.</span>defaultProps
+  <span class="token operator">=</span>
+  <span class="token punctuation">{</span>
+  names
+  <span class="token punctuation">:</span>
+  <span class="token punctuation">[</span>
+  <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+ </code>
+
+
+
+ <style>
+  pre code {
+   display: block;
+   border-radius: 3px;
+   overflow-x: auto;
+   padding: .5em 1em;
+   color: #333;
+   background: transparent;
+  }
+ </style>
+</body>
+
+</html>
